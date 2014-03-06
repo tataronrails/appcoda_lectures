@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD52108B18C08EEE00E91E2D /* recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD52108A18C08EEE00E91E2D /* recipes.plist */; };
+		CD52108D18C091D900E91E2D /* recipes2.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD52108C18C091D900E91E2D /* recipes2.plist */; };
 		CD64F18618B7568000A3EFE7 /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD64F18518B7568000A3EFE7 /* SimpleTableCell.xib */; };
 		CD64F18918B7585500A3EFE7 /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD64F18818B7585500A3EFE7 /* SimpleTableCell.m */; };
 		CDFF358F18B369C40012FEA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF358E18B369C40012FEA6 /* Foundation.framework */; };
@@ -17,7 +19,6 @@
 		CDFF359F18B369C40012FEA6 /* SimpleTableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFF359E18B369C40012FEA6 /* SimpleTableAppDelegate.m */; };
 		CDFF35A218B369C40012FEA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFF35A018B369C40012FEA6 /* Main.storyboard */; };
 		CDFF35A518B369C40012FEA6 /* SimpleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFF35A418B369C40012FEA6 /* SimpleTableViewController.m */; };
-		CDFF35A718B369C40012FEA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFF35A618B369C40012FEA6 /* Images.xcassets */; };
 		CDFF35AE18B369C40012FEA6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF35AD18B369C40012FEA6 /* XCTest.framework */; };
 		CDFF35AF18B369C40012FEA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF358E18B369C40012FEA6 /* Foundation.framework */; };
 		CDFF35B018B369C40012FEA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF359218B369C40012FEA6 /* UIKit.framework */; };
@@ -52,6 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD52108A18C08EEE00E91E2D /* recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = recipes.plist; sourceTree = "<group>"; };
+		CD52108C18C091D900E91E2D /* recipes2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = recipes2.plist; sourceTree = "<group>"; };
+		CD52109218C0999300E91E2D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CD52109318C099A500E91E2D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CD64F18518B7568000A3EFE7 /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableCell.xib; sourceTree = "<group>"; };
 		CD64F18718B7585500A3EFE7 /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCell.h; sourceTree = "<group>"; };
 		CD64F18818B7585500A3EFE7 /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCell.m; sourceTree = "<group>"; };
@@ -68,7 +73,6 @@
 		CDFF35A118B369C40012FEA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDFF35A318B369C40012FEA6 /* SimpleTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleTableViewController.h; sourceTree = "<group>"; };
 		CDFF35A418B369C40012FEA6 /* SimpleTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableViewController.m; sourceTree = "<group>"; };
-		CDFF35A618B369C40012FEA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CDFF35AC18B369C40012FEA6 /* lection4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lection4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFF35AD18B369C40012FEA6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CDFF35B518B369C40012FEA6 /* lection4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lection4Tests-Info.plist"; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 		CDFF358218B369C40012FEA6 = {
 			isa = PBXGroup;
 			children = (
+				CD52109318C099A500E91E2D /* Default@2x.png */,
+				CD52109218C0999300E91E2D /* Default.png */,
 				CDFF359418B369C40012FEA6 /* lection4 */,
 				CDFF35B318B369C40012FEA6 /* lection4Tests */,
 				CDFF358D18B369C40012FEA6 /* Frameworks */,
@@ -161,9 +167,11 @@
 				CDFF35D018B36DD50012FEA6 /* japanese_noodle_with_pork.jpg */,
 				CDFF35D118B36DD50012FEA6 /* mushroom_risotto.jpg */,
 				CDFF35D218B36DD50012FEA6 /* noodle_with_bbq_pork.jpg */,
+				CD52108C18C091D900E91E2D /* recipes2.plist */,
 				CDFF35D318B36DD50012FEA6 /* starbucks_coffee.jpg */,
 				CDFF35D418B36DD50012FEA6 /* thai_shrimp_cake.jpg */,
 				CDFF35D518B36DD50012FEA6 /* vegetable_curry.jpg */,
+				CD52108A18C08EEE00E91E2D /* recipes.plist */,
 				CDFF35D618B36DD50012FEA6 /* white_chocolate_donut.jpg */,
 				CDFF359D18B369C40012FEA6 /* SimpleTableAppDelegate.h */,
 				CDFF359E18B369C40012FEA6 /* SimpleTableAppDelegate.m */,
@@ -171,7 +179,6 @@
 				CD64F18518B7568000A3EFE7 /* SimpleTableCell.xib */,
 				CDFF35A318B369C40012FEA6 /* SimpleTableViewController.h */,
 				CDFF35A418B369C40012FEA6 /* SimpleTableViewController.m */,
-				CDFF35A618B369C40012FEA6 /* Images.xcassets */,
 				CDFF359518B369C40012FEA6 /* Supporting Files */,
 				CD64F18718B7585500A3EFE7 /* SimpleTableCell.h */,
 				CD64F18818B7585500A3EFE7 /* SimpleTableCell.m */,
@@ -286,13 +293,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDFF35DA18B36DD50012FEA6 /* full_breakfast.jpg in Resources */,
-				CDFF35A718B369C40012FEA6 /* Images.xcassets in Resources */,
 				CDFF35D818B36DD50012FEA6 /* creme_brelee.jpg in Resources */,
 				CDFF35E518B36DD50012FEA6 /* vegetable_curry.jpg in Resources */,
 				CDFF35E418B36DD50012FEA6 /* thai_shrimp_cake.jpg in Resources */,
 				CDFF359918B369C40012FEA6 /* InfoPlist.strings in Resources */,
 				CD64F18618B7568000A3EFE7 /* SimpleTableCell.xib in Resources */,
 				CDFF35E618B36DD50012FEA6 /* white_chocolate_donut.jpg in Resources */,
+				CD52108B18C08EEE00E91E2D /* recipes.plist in Resources */,
 				CDFF35DF18B36DD50012FEA6 /* instant_noodle_with_egg.jpg in Resources */,
 				CDFF35DE18B36DD50012FEA6 /* hamburger.jpg in Resources */,
 				CDFF35E218B36DD50012FEA6 /* noodle_with_bbq_pork.jpg in Resources */,
@@ -303,6 +310,7 @@
 				CDFF35E118B36DD50012FEA6 /* mushroom_risotto.jpg in Resources */,
 				CDFF35E318B36DD50012FEA6 /* starbucks_coffee.jpg in Resources */,
 				CDFF35D918B36DD50012FEA6 /* egg_benedict.jpg in Resources */,
+				CD52108D18C091D900E91E2D /* recipes2.plist in Resources */,
 				CDFF35DD18B36DD50012FEA6 /* ham_and_egg_sandwich.jpg in Resources */,
 				CDFF35E018B36DD50012FEA6 /* japanese_noodle_with_pork.jpg in Resources */,
 			);
@@ -452,7 +460,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "lection4/lection4-Prefix.pch";
 				INFOPLIST_FILE = "lection4/lection4-Info.plist";
@@ -465,7 +472,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "lection4/lection4-Prefix.pch";
 				INFOPLIST_FILE = "lection4/lection4-Info.plist";
