@@ -11,6 +11,7 @@
 		CD52108D18C091D900E91E2D /* recipes2.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD52108C18C091D900E91E2D /* recipes2.plist */; };
 		CD64F18618B7568000A3EFE7 /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD64F18518B7568000A3EFE7 /* SimpleTableCell.xib */; };
 		CD64F18918B7585500A3EFE7 /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD64F18818B7585500A3EFE7 /* SimpleTableCell.m */; };
+		CD764A2018CEF4E800A992C9 /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD764A1F18CEF4E800A992C9 /* RecipeDetailViewController.m */; };
 		CDFF358F18B369C40012FEA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF358E18B369C40012FEA6 /* Foundation.framework */; };
 		CDFF359118B369C40012FEA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF359018B369C40012FEA6 /* CoreGraphics.framework */; };
 		CDFF359318B369C40012FEA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFF359218B369C40012FEA6 /* UIKit.framework */; };
@@ -60,6 +61,8 @@
 		CD64F18518B7568000A3EFE7 /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableCell.xib; sourceTree = "<group>"; };
 		CD64F18718B7585500A3EFE7 /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCell.h; sourceTree = "<group>"; };
 		CD64F18818B7585500A3EFE7 /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCell.m; sourceTree = "<group>"; };
+		CD764A1E18CEF4E800A992C9 /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
+		CD764A1F18CEF4E800A992C9 /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
 		CDFF358B18B369C40012FEA6 /* lection4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lection4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFF358E18B369C40012FEA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDFF359018B369C40012FEA6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -182,6 +185,8 @@
 				CDFF359518B369C40012FEA6 /* Supporting Files */,
 				CD64F18718B7585500A3EFE7 /* SimpleTableCell.h */,
 				CD64F18818B7585500A3EFE7 /* SimpleTableCell.m */,
+				CD764A1E18CEF4E800A992C9 /* RecipeDetailViewController.h */,
+				CD764A1F18CEF4E800A992C9 /* RecipeDetailViewController.m */,
 			);
 			path = lection4;
 			sourceTree = "<group>";
@@ -335,6 +340,7 @@
 				CDFF359F18B369C40012FEA6 /* SimpleTableAppDelegate.m in Sources */,
 				CD64F18918B7585500A3EFE7 /* SimpleTableCell.m in Sources */,
 				CDFF35A518B369C40012FEA6 /* SimpleTableViewController.m in Sources */,
+				CD764A2018CEF4E800A992C9 /* RecipeDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

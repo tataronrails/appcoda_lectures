@@ -8,6 +8,7 @@
 
 #import "SimpleTableViewController.h"
 #import "SimpleTableCell.h"
+#import "RecipeDetailViewController.h"
 
 @interface SimpleTableViewController ()
 
@@ -28,19 +29,20 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *simpleTableIdentifier = @"SimpleTableCell";
+    static NSString *simpleTableIdentifier = @"RecipeCell";
     
     SimpleTableCell *cell = (SimpleTableCell *)[tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
-    if (cell == nil)
-    {
-        NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"SimpleTableCell" owner:self options:nil];
+    
+    if (cell == nil) {
+        NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"RecipeCell" owner:self options:nil];
         cell = [nib objectAtIndex:0];
+
     }
     
-    cell.nameLabel.text = [tableData objectAtIndex:indexPath.row];
+    cell.textLabel.text = [tableData objectAtIndex:indexPath.row];
     cell.thumbnailImageView.image = [UIImage imageNamed:[thumbnails objectAtIndex:indexPath.row]];
     cell.prepTimeLabel.text = [prepTime objectAtIndex:indexPath.row];
-    
+
     return cell;
 }
 
@@ -63,9 +65,17 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    return 78;
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"showRecipeDetail"]) {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        RecipeDetailViewController *destViewController = segue.destinationViewController;
+        destViewController.recipeName = [tableData objectAtIndex:indexPath.row];
+    }
 }
+
+//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    return 78;
+//}
 
 @end
